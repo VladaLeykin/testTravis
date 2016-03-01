@@ -6,5 +6,4 @@ script: grunt
 
 before_install:
   - npm install -g grunt-cli
-  - npm install
   - grunt
