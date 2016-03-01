@@ -24,6 +24,10 @@ define([ 'React', 'reactDOM', 'components/component/Modal'],
                 expect(0).toEqual(1);
             });
 
+            it('should fail too', function () {
+                expect(0).toEqual(1);
+            });
+
             it('should close a modal', function () {
                 var constructor = TestUtils.renderIntoDocument( <Modal className="modalDialog closed"/>);
                 var domNode = ReactDOM.findDOMNode(constructor);
